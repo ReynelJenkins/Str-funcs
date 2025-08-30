@@ -1,0 +1,19 @@
+//todo: puts, strchr, strlen, strcpy, strncpy, strcat, strncat, fgets, strdup, getline
+
+#include <stdio.h>
+
+int puts(const char *str);
+
+int main()
+{
+    return 0;
+}
+
+int puts(const char *str)
+{
+    int i = str;
+    while (*i != EOF && *i != '\n' && *i != '\0')
+    {
+        putc();
+    }
+}
